@@ -249,3 +249,35 @@ body {
     max-width: 100%;
   }
 }
+/* header : */
+.menu {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+}
+.menu_link {
+  text-decoration: none;
+  color: #081d43;
+  padding: 0 1rem;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+.header__link {
+  text-decoration: none;
+  background-color: #0050c8;
+  color: #ffffff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+}
+.nav_logo {
+  margin-right: 1.5rem;
+}
