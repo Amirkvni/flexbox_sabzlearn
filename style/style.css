@@ -383,8 +383,8 @@ body {
   font-family: "TTNorms Light";
 }
 .comments {
-  margin: 2.5rem 0;
   display: flex;
+  justify-content: space-between;
 }
 .coment {
   background: white;
@@ -393,7 +393,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 16rem;
+  min-height: 18rem;
+  flex-basis: 20rem;
+}
+.comments_container {
+  max-width: 65rem;
+  margin: 3.5rem auto;
 }
 .coment-content {
   text-align: left;
@@ -411,10 +416,18 @@ body {
   border-top: 1px solid #e8ebef;
   padding: 0.8rem 1.2rem;
 }
-.coment-img {
-}
 .coment-person {
   color: black;
   margin: 0.5rem;
   margin: 0 0 0 0.5rem;
+}
+.companies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.company__img {
+  display: block;
+  margin: 1rem;
 }
