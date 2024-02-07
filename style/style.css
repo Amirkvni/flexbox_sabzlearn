@@ -288,7 +288,7 @@ body {
   align-items: center;
 }
 .header-bottom {
-  margin-top: 6rem;
+  margin-top: 5.5rem;
 }
 .header-content_left {
   flex-basis: 50%;
@@ -332,7 +332,7 @@ body {
 }
 /* main : */
 .main {
-  padding: 5rem 0;
+  padding: 6rem 0;
 }
 .works {
   text-align: center;
@@ -344,6 +344,8 @@ body {
 .works__title {
   color: #081d43;
   margin-top: 0.8rem;
+  font-family: "TTNorms Medium";
+  font-weight: normal;
 }
 .works-content {
   margin-top: 3rem;
@@ -366,3 +368,4 @@ body {
 .works-img__image {
   width: 100%;
 }
+/* person comments: */
