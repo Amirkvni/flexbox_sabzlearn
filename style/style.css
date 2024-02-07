@@ -281,3 +281,88 @@ body {
 .nav_logo {
   margin-right: 1.5rem;
 }
+/* header 2 : */
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+.header-bottom {
+  margin-top: 6rem;
+}
+.header-content_left {
+  flex-basis: 50%;
+}
+.header-content_right {
+  flex-basis: 50%;
+}
+.headercontent__image {
+  width: 100%;
+}
+.header-content__title {
+  font-family: "TTNorms Medium";
+  color: #081d43;
+  font-weight: normal;
+  line-height: 2.5rem;
+}
+.header-content__text {
+  color: #6c7890;
+  line-height: 2rem;
+}
+.header-content__links {
+  display: flex;
+  margin-top: 1.5rem;
+}
+.header-content__link {
+  text-decoration: none;
+  background-color: #0050c8;
+  color: #ffffff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  margin-right: 0.8rem;
+  display: block;
+  width: 10rem;
+  text-align: center;
+}
+.header-content__link:nth-child(1) {
+  background-color: #87bc25;
+}
+.header-content__wrapper {
+  max-width: 28rem;
+}
+/* main : */
+.main {
+  padding: 5rem 0;
+}
+.works {
+  text-align: center;
+}
+.works__text {
+  color: #6c7890;
+  margin-bottom: 0;
+}
+.works__title {
+  color: #081d43;
+  margin-top: 0.8rem;
+}
+.works-content {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+.works-content__title {
+  color: #081d43;
+}
+.works-content__text {
+  color: #6c7890;
+  line-height: 2rem;
+  max-width: 16rem;
+}
+.works-img {
+  max-width: 31rem;
+  margin: 0 auto;
+}
+.works-img__image {
+  width: 100%;
+}
