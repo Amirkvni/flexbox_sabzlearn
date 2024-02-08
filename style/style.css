@@ -454,3 +454,40 @@ body {
 .portfolio__img {
   width: 100%;
 }
+/* footer : */
+.newsletter-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newsletter {
+  background-color: #2e313d;
+  padding: 4.5rem 0;
+  color: #fff;
+}
+.newsletter__btn {
+  background-color: #2f5bea;
+  border: none;
+  outline: none;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+.newsletter_email {
+  background-color: #fff;
+  flex-basis: 20rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0.4rem 0.4rem 1.5rem;
+  border-radius: 0.5rem;
+  align-items: center;
+}
+.newsletter__text {
+  font-size: 1.6rem;
+}
+.letter__text {
+  border: none;
+  outline: none;
+}
