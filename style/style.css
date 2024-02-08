@@ -438,4 +438,19 @@ body {
 .portfolio-items {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.portfolio {
+  text-align: center;
+  padding: 2rem 3rem;
+}
+.portfolio_item {
+  flex-basis: 23rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.portfolio__img {
+  width: 100%;
 }
