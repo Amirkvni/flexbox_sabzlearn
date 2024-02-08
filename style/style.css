@@ -491,3 +491,12 @@ body {
   border: none;
   outline: none;
 }
+.copy-right {
+  color: #6c7890;
+  padding: 1rem 0;
+}
+.copyright-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
