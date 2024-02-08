@@ -499,6 +499,9 @@ body {
   .container {
     max-width: 960px;
   }
+  .portfolio-items {
+    flex-basis: 28rem;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -517,6 +520,9 @@ body {
   .companies {
     justify-content: center;
     margin-top: 2.5rem;
+  }
+  .portfolio-items {
+    flex-basis: 20rem;
   }
 }
 
@@ -578,7 +584,8 @@ body {
     margin: 0 0 1.5rem 0;
     flex-basis: 15rem;
   }
-  .companies {
+  .portfolio-items {
+    flex-basis: 100%;
   }
 }
 
