@@ -484,6 +484,7 @@ body {
 .letter__text {
   border: none;
   outline: none;
+  width: 100%;
 }
 .copy-right {
   color: #6c7890;
@@ -493,6 +494,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 /* responsive : */
 @media only screen and (max-width: 1200px) {
@@ -501,6 +503,9 @@ body {
   }
   .portfolio-items {
     flex-basis: 28rem;
+  }
+  .newsletter__text {
+    max-width: 28rem;
   }
 }
 
@@ -523,6 +528,9 @@ body {
   }
   .portfolio-items {
     flex-basis: 20rem;
+  }
+  .newsletter__text {
+    max-width: 20rem;
   }
 }
 
@@ -587,6 +595,17 @@ body {
   .portfolio-items {
     flex-basis: 100%;
   }
+  .newsletter-wrapper {
+    flex-direction: column;
+  }
+  .newsletter_email {
+    flex-basis: auto;
+    width: 100%;
+  }
+  .newsletter__text {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -602,5 +621,11 @@ body {
   }
   .companies {
     flex-direction: column;
+  }
+  .coment {
+    flex-basis: 100%;
+  }
+  .newsletter__btn {
+    padding: 1rem 1.2rem;
   }
 }
